@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Vue</title>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.1/axios.min.js"></script>
+    <style>
+        /* =========
+       Get Fonts */
+        @import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+        /* ================
+           Assign Variables */
+        /* ===========================
+           Setup Mixins/Helper Classes */
+        .clearfix:after, .calendar ol:after {
+            content: ".";
+            display: block;
+            height: 0;
+            clear: both;
+            visibility: hidden;
+        }
+
+        /* ==========
+           Setup Page */
+        *, *:before, *:after {
+            box-sizing: border-box;
+        }
+
+        body {
+            padding: 3em;
+            background-color: #fff;
+            color: grey;
+            font-family: 'Quicksand', sans-serif;
+        }
+
+        /* ================
+           Calendar Styling */
+        .calendar {
+            background: white;
+            padding: 3em;
+            width: 100%;
+            min-width: 800px;
+            overflow: scroll;
+            border-radius: 3px;
+            border: 1px solid lightblue;
+            font-size: 1.2vw;
+        }
+
+        .calendar .month {
+            margin-top: 0;
+            font-weight: normal;
+            font-size: 3em;
+            color: #6EB590;
+        }
+
+        .calendar ol {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        .calendar ol li {
+            float: left;
+            width: 14.28571%;
+        }
+
+        .calendar .day-names {
+            border-bottom: 1px solid #eee;
+        }
+
+        .calendar .day-names li {
+            text-transform: uppercase;
+            margin-bottom: .5em;
+        }
+
+        .calendar .days li {
+            border-bottom: 1px solid #eee;
+            min-height: 150px;
+        }
+
+        .calendar .days li .date {
+            margin: .5em 0;
+        }
+
+        .calendar .days li.outside .date {
+            color: #ddd;
+        }
+
+        .calendar .days .post {
+            padding: 3px;
+        }
+        .calendar .days .icon {
+            width: 30px;
+            height: 30px;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .calendar .days .icon img {
+            width: 100%;
+        }
+        .calendar .days .title {
+            font-size: 1.4vw;
+        }
+        .calendar .days .title a {
+            color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+<div id="app">
+    <div v-if="data.length > 0" class="contents">
+        <div class="calendar">
+            <h1 class="month">
+                June 2017
+            </h1>
+            <ol class="day-names">
+                <li>
+                    Sunday
+                </li>
+                <li>
+                    Monday
+                </li>
+                <li>
+                    Tuesday
+                </li>
+                <li>
+                    Wednesday
+                </li>
+                <li>
+                    Thursday
+                </li>
+                <li>
+                    Friday
+                </li>
+                <li>
+                    Saturday
+                </li>
+            </ol>
+            <ol class="days">
+                <li v-for="i in prev" class="outside">
+                    <div class="date"></div>
+                </li>
+                <li v-for="i in days" class="date">
+                    <div class="date">{{i}}</div>
+                    <div v-if="data[i-1]" class="post">
+                        <div class="icon"><img v-if="data[i-1].icon != ''" :src="data[i-1].icon" alt=""></div>
+                        <div class="title">
+                            <a :href="data[i-1].link">{{data[i-1].title}}</a>
+                        </div>
+                    </div>
+                </li>
+                <li v-for="i in after" class="outside">
+                    <div class="date"></div>
+                </li>
+            </ol>
+        </div>
+    </div>
+</div>
+
+<script>
+    new Vue({
+        el: '#app',
+        data: {
+            prev: 4,
+            after: 1,
+            days: 30,
+            data: []
+        },
+        created: function () {
+            axios.get('./data.json')
+            .then(r => {
+                this.data = r.data;
+            })
+        }
+    })
+</script>
+</body>
+</html>
