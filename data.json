@@ -1,6 +1,6 @@
 [
   {
-    "icon": "https://qiita-image-store.s3.amazonaws.com/0/73113/profile-images/1473699390",
+    "icon": "images/shinichi.png",
     "title": "俺でもできるタスク管理",
     "link": "http://qiita.com/shinichi-takahashi/items/cea235795f904ccea207"
   },
@@ -8,6 +8,10 @@
     "icon": "images/koruri.jpg",
     "title": "Promise をリトライする何かを作った",
     "link": "http://qiita.com/y13i/items/6ba3c8849c8af80d2dde"
+  },
+    {
+    "icon": "images/gamisan.png",
+    "title": "俺ですら使えるboxnoteを積極的に活用してあら便利な人生をおくろう",
+    "link": "http://qiita.com/gamisan9999/private/f88930fe1a8b41c1b570"
   }
-
 ]
