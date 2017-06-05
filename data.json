@@ -1,5 +1,4 @@
-[
-  {
+[{
     "icon": "images/shinichi.png",
     "title": "俺でもできるタスク管理",
     "link": "http://qiita.com/shinichi-takahashi/items/cea235795f904ccea207"
@@ -9,9 +8,14 @@
     "title": "Promise をリトライする何かを作った",
     "link": "http://qiita.com/y13i/items/6ba3c8849c8af80d2dde"
   },
-    {
+  {
     "icon": "images/gamisan.png",
     "title": "俺ですら使えるboxnoteを積極的に活用してあら便利な人生をおくろう",
     "link": "http://qiita.com/gamisan9999/private/f88930fe1a8b41c1b570"
+  },
+    {
+    "icon": "images/2p.png",
+    "title": "A-Frameを使って360度動画再生コンテンツを作ったので、WebVRが今どんな感じなのかをまとめ。",
+    "link": "http://qiita.com/bobu_web/items/fa655aa1d79cb2e74f73"
   }
 ]
