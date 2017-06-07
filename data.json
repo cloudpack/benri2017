@@ -27,5 +27,10 @@
     "icon": "images/2p.png",
     "title": "2017年になったのでそろそろCSSのレイアウトをおさらいする(CSS Flexbox Layout) ",
     "link": "http://qiita.com/bobu_web/items/d2cde91f9e90c72b77e5"
+  },
+  {
+    "icon": "image/shinichi.png",
+    "title": "PHPerだけどAWS STSを活用してSaaSをマルチテナント化した",
+    "link": "http://qiita.com/shinichi-takahashi/items/66693089c58b227c4ad6"
   }
 ]
