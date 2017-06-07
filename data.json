@@ -32,5 +32,10 @@
     "icon": "images/shinichi.png",
     "title": "PHPerだけどAWS STSを活用してSaaSをマルチテナント化した",
     "link": "http://qiita.com/shinichi-takahashi/items/66693089c58b227c4ad6"
+  },
+  {
+    "icon": "images/koruri.png",
+    "title": "Visual Studio Code の設定メモ",
+    "link": "http://qiita.com/y13i/items/6f6079b1e222cf16ef55"
   }
 ]
