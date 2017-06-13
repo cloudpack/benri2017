@@ -57,5 +57,10 @@
     "icon": "images/shinichi.png",
     "title": "PHPカンファレンス福岡2017に参加してきました。",
     "link": "http://qiita.com/shinichi-takahashi/items/af203a2cb579c154dec3"
+  },
+  {
+    "icon": "images/2p.png",
+    "title": "逆引きWebpackの使い方",
+    "link": "http://qiita.com/bobu_web/items/dc72e19f0e548c484f0e"
   }
 ]
