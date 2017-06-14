@@ -62,5 +62,10 @@
     "icon": "images/2p.png",
     "title": "逆引きWebpackの使い方",
     "link": "http://qiita.com/bobu_web/items/dc72e19f0e548c484f0e"
+  },
+  {
+    "icon": "images/koruri.jpg",
+    "title": "CFn Custom Resource でハマりがちな罠",
+    "link": "http://qiita.com/y13i/items/46b58072daeba56b6ada"
   }
 ]
