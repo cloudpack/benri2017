@@ -67,5 +67,10 @@
     "icon": "images/koruri.jpg",
     "title": "CFn Custom Resource でハマりがちな罠",
     "link": "http://qiita.com/y13i/items/46b58072daeba56b6ada"
+  },
+  {
+    "icon": "images/kuriya.jpeg",
+    "title": "backlogのAPIを使って課題を追加する方法（PHP編）",
+    "link": "http://qiita.com/kuriya/items/db9f00242181e61a47e5"
   }
 ]
