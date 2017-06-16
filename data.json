@@ -72,5 +72,10 @@
     "icon": "images/kuriya.jpeg",
     "title": "backlogのAPIを使って課題を追加する方法（PHP編）",
     "link": "http://qiita.com/kuriya/items/db9f00242181e61a47e5"
+  },
+  {
+    "icon": "images/nokono.png",
+    "title": "Automatically manage signingに負けないFastlaneでのiOSアプリ配布",
+    "link": "http://qiita.com/nokono/items/1d3d200eef7ea7d705e3"
   }
 ]
