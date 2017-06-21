@@ -97,5 +97,10 @@
     "icon": "images/karaage.jpeg",
     "title": "MySQLであら便利なサブクエリ最適化を知る",
     "link": "http://blog.mekachan.net/?p=461"
+  },
+  {
+    "icon": "images/2p.png",
+    "title": "Javascriptの実行順序(Web Worker、非同期処理、イベント )",
+    "link": "http://qiita.com/bobu_web/items/b461d61d313c6842477a"
   }
 ]
