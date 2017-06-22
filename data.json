@@ -102,5 +102,10 @@
     "icon": "images/2p.png",
     "title": "Javascriptの実行順序(Web Worker、非同期処理、イベント )",
     "link": "http://qiita.com/bobu_web/items/b461d61d313c6842477a"
+  },
+  {
+    "icon": "images/shinichi.png",
+    "title": "デスクに置いておくと捗るモノ - エンジニア編",
+    "link": "http://qiita.com/shinichi-takahashi/items/566cbb00fcc97dfa95ad"
   }
 ]
