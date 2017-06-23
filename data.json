@@ -107,5 +107,10 @@
     "icon": "images/shinichi.png",
     "title": "デスクに置いておくと捗るモノ - エンジニア編",
     "link": "http://qiita.com/shinichi-takahashi/items/566cbb00fcc97dfa95ad"
+  },
+  {
+    "icon": "images/koruri.jpg",
+    "title": "CloudFormation であら便利に静的サイトを作る",
+    "link": "http://qiita.com/y13i/items/643f7dfd989c6df81d2e"
   }
 ]
