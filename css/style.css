@@ -1095,6 +1095,7 @@ a:hover {
 }
 
 .calendar .days .icon {
+    display: flex;
     width: 45px;
     height: 45px;
     border-radius: 23px;
@@ -1144,11 +1145,11 @@ a:hover {
         display: flex;
         align-items: center;
     }
-    
+
     .calendar .days .post > * {
-        margin-left: 15px;        
+        margin-left: 15px;
     }
-    
+
     .calendar .days .title {
         font-size: 18px;
     }
