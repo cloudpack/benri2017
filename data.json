@@ -127,5 +127,10 @@
     "icon": "images/nakasuka.jpg",
     "title": "「Kotlin入門までの助走読本」を読んで助走した話",
     "link": "http://qiita.com/m-nakasuka/items/7a706df43144ff1d0703"
+  },
+  {
+    "icon": "images/koruri.jpg",
+    "title": "AWS Price List API で雑に月額を出してみる",
+    "link": "http://qiita.com/y13i/items/b296844486363946d400"
   }
 ]
