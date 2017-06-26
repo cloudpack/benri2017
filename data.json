@@ -112,5 +112,10 @@
     "icon": "images/koruri.jpg",
     "title": "CloudFormation であら便利に静的サイトを作る",
     "link": "http://qiita.com/y13i/items/643f7dfd989c6df81d2e"
+  },
+  {
+    "icon": "images/nakasuka.jpg",
+    "title": "「Kotlin入門までの助走読本」を読んで助走した話",
+    "link": "http://qiita.com/m-nakasuka/items/7a706df43144ff1d0703"
   }
 ]
