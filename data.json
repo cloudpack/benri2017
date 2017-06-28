@@ -132,5 +132,10 @@
     "icon": "images/koruri.jpg",
     "title": "AWS Price List API で雑に月額を出してみる",
     "link": "http://qiita.com/y13i/items/b296844486363946d400"
+  },
+  {
+    "icon": "images/keni_w.jpeg",
+    "title": "Cloudwatch LogsからLambdaのログを取得した時に嵌って直した話",
+    "link": "http://qiita.com/keni_w/items/4639c867aa5f14fbf16f"
   }
 ]
