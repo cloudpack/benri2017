@@ -137,5 +137,10 @@
     "icon": "images/keni_w.jpeg",
     "title": "Cloudwatch LogsからLambdaのログを取得した時に嵌って直した話",
     "link": "http://qiita.com/keni_w/items/4639c867aa5f14fbf16f"
+  },
+  {
+    "icon": "images/karaage.jpeg",
+    "title": "みんな知ってた？あら便利なCarbonの使い方",
+    "link": "http://blog.mekachan.net/?p=475"
   }
 ]
