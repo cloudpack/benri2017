@@ -142,5 +142,10 @@
     "icon": "images/karaage.jpeg",
     "title": "みんな知ってた？あら便利なCarbonの使い方",
     "link": "http://blog.mekachan.net/?p=475"
+  },
+  {
+    "icon": "images/ubansi.jpeg",
+    "title": "GitのDiffをSlackへ流したいだけなんだ",
+    "link": "http://qiita.com/ubansi/items/492a2b31fb53c29975dc"
   }
 ]
